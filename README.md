@@ -610,18 +610,6 @@ git clone https://github.com/appsaeed/utilies.git
 npm run build # Test and compile TypeScript
 ```
 
-
-## Other Packages  
-
-Explore additional JavaScript helper packages designed to simplify development and improve functionality across various projects.  
-
-### **NPM Packages:**  
-- [vite-svg](https://github.com/appsaeed/vite-svg) – Vite SVG plugin: easy SVG import with format support JSON, raw string, object, etc.  
-- [utilies](https://github.com/appsaeed/utilies) – Automatically generates sitemaps for Vite projects.  
-
-
 ## License  
-
-Copyright © 2025 [appsaeed](https://appsaeed.github.io)
 
 [MIT](LICENSE)

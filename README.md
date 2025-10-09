@@ -5,7 +5,7 @@
 
 ## Introduction
 
-JavaScript utility helpers designed to enhance developer experience, increase productivity, and optimize performance. Compatible with both browsers (Node.js with limited support).
+A lightweight collection of JS/TS utilities for common tasks like error handling, theme management, clipboard, conversions, and more.
 
 > Fast, generic JavaScript utility helpers to boost your project productivity and performance
 

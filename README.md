@@ -1,3 +1,8 @@
+[![npm version](https://badgen.net/npm/v/utilies)](https://www.npmjs.com/package/utilies)
+[![monthly downloads](https://badgen.net/npm/dm/utilies)](https://www.npmjs.com/package/utilies)
+[![types](https://badgen.net/npm/types/utilies)](https://github.com/saeedhosan/utilies/blob/main/src/index.d.ts)
+[![license](https://badgen.net/npm/license/utilies)](https://github.com/saeedhosan/utilies/blob/main/LICENSE)
+
 ## Introduction
 
 JavaScript utility helpers designed to enhance developer experience, increase productivity, and optimize performance. Compatible with both browsers (Node.js with limited support).
@@ -612,7 +617,7 @@ Explore additional JavaScript helper packages designed to simplify development a
 
 ### **NPM Packages:**  
 - [vite-svg](https://github.com/appsaeed/vite-svg) – Vite SVG plugin: easy SVG import with format support JSON, raw string, object, etc.  
-- [vite-sitemap](https://github.com/appsaeed/vite-sitemap) – Automatically generates sitemaps for Vite projects.  
+- [utilies](https://github.com/appsaeed/utilies) – Automatically generates sitemaps for Vite projects.  
 
 
 ## License  

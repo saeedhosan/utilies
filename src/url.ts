@@ -63,7 +63,7 @@ export const unSlashEnd = unSlashR;
  * add a slash to the url of endpoint
  */
 export const addSlash = (str: string): string => unSlash(str).replace(/$/, "/");
-export const addSlashs = (str: string): string => unSlash(str).replace(/(\/$)|(^\/)/g, "/");
+export const addSlashs = (str: string): string => "/" + unSlash(str) + "/";
 
 export function pathArrayToString(path: string | string[]) {
 	if (Array.isArray(path)) {
@@ -146,7 +146,13 @@ export function url(...args: (string | Record<string, any>)[]) {
 		const searchParams = new URLSearchParams();
 		if (params) {
 			Object.entries(params).forEach(([key, value]) => {
-				searchParams.append(key, value.toString());
+        if (value != null) {
+          if (Array.isArray(value)) {
+            value.forEach((v: any) => searchParams.append(key, v.toString()));
+          } else {
+            searchParams.append(key, value.toString());
+          }
+        }
 			});
 		}
 		// Combine paths and query string

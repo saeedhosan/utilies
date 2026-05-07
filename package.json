@@ -1,7 +1,7 @@
 {
     "name": "utilies",
     "version": "1.3.3",
-    "description": "JJavaScript utilities for faster development and productivity.",
+    "description": "JavaScript utilities for faster development and productivity.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "type": "module",
@@ -18,17 +18,10 @@
     "keywords": [
         "utilies",
         "utilities",
-        "javascript utilities",
-        "utils",
-        "appsaeed",
-        "theme storage"
+        "javascript"
     ],
-    "author": "appsaeed",
+    "author": "saeedhosan",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/appsaeed/utilies.git/issues"
-    },
-    "homepage": "https://github.com/appsaeed/utilies.git#readme",
     "files": [
         "dist/"
     ],

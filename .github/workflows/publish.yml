@@ -1,12 +1,6 @@
 name: Node.js Publish Package
 
 on:
-    # workflow_dispatch:
-
-    # push:
-    #   branches:
-    #     - main
-
     release:
         types: [published]
 
@@ -18,8 +12,10 @@ jobs:
             # Setup .npmrc file to publish to npm
             - uses: actions/setup-node@v4
               with:
-                  node-version: "20.x"
+                  node-version: "24.x"
                   registry-url: "https://registry.npmjs.org"
+            - run: npm install
+            - run: npm test
             - run: npm run build
             - run: npm publish  --access public
               env:

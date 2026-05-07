@@ -1,4 +1,7 @@
-{{ badges }}
+[![npm version](https://badgen.net/npm/v/utilies)](https://www.npmjs.com/package/utilies)
+[![monthly downloads](https://badgen.net/npm/dm/utilies)](https://www.npmjs.com/package/utilies)
+[![types](https://badgen.net/npm/types/utilies)](https://github.com/saeedhosan/utilies/blob/main/src/index.ts)
+[![license](https://badgen.net/npm/license/utilies)](https://github.com/saeedhosan/utilies/blob/main/LICENSE)
 
 # utilies
 
